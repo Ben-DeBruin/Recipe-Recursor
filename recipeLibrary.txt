@@ -5,6 +5,10 @@
 //| component 2, numberRequired
 //| ...
 //| component n, numberRequired
+//> Bi-product 1, numberProduced
+//> Bi-product 2, numberProduced
+//> ...
+//> Bi-product n, numberProduced
 //+ Comment to be displayed in output for recipe. Only the last comment on a recipe will be displayed
 //- End of Recipe
 
