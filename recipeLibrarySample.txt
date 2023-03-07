@@ -1,0 +1,17 @@
+# BookShelf, 1
+| Book, 3
+| Wooden Plank, 6
+-
+
+# Book, 1
+| Paper, 3
+| Leather, 1
+-
+
+# Paper, 3
+| Sugar Cane, 3
+-
+
+# Wooden Plank, 4
+| Oak Log, 1
+-

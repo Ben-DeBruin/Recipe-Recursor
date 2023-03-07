@@ -1,0 +1,400 @@
+//Recipe Library Input in the following format
+
+//# Item Name, yield
+//| component 1, numberRequired
+//| component 2, numberRequired
+//| ...
+//| component n, numberRequired
+//+ Comment to be displayed in output for recipe. Only the last comment on a recipe will be displayed
+//- End of Recipe
+
+//For Fluid Components use the number of millibuckets required for the number required and for the yield. For example
+//#Bucket of Molten Steel, 1
+//| bucket, 1
+//| Molten Steel, 1000
+//+ "Cast from Smeltery"
+//-
+
+# Crystal Matrix Ingot, 1
+| Diamond Lattice, 4
+| Refined Diamond Tier 1, 2
+| Nether Star, 2
+| Enhanced Galgadorian Metal, 1
+| Liquid Enderium, 800
++ Carpenter
+-
+
+# Diamond Lattice, 1
+| Diamond, 5
+| Refined Diamond Tier 1, 4
+| Liquid Enderium, 800
++ Carpenter
+
+# Refined Diamond Tier 1, 4
+| Super Diamond, 4
+| Petrolium Infused Ingot, 1
+| Liquid Enderium, 200
++ Carpenter
+-
+
+# Super Diamond, 1
+| Block of Redstone, 4
+| Block of Electrotine, 4
+| Block of Diamond, 1
+| Molten Glass, 500
++ Thermionic Fabricator
+-
+
+# Block of Electrotine, 1
+| Electrotine, 9
+| Molten Glass, 500
++ Thermionic Fabricator
+-
+
+# Nether Star, 1
+| Super Diamond, 5
+| Blaze Rod, 12
+| Ender Ingot, 8
++ Advanced Crafting Table Tier 2
+-
+
+# Blaze Rod, 3
+| Glowstone Dust, 6
+| Steel Rod, 3
+| Molten Glass, 500
++ Thermionic Fabricator 
+-
+
+# Steel Rod, 2
+| Steel Ingot, 1
++ Immersive Engineering: Metal Press
+-
+
+# Ender Ingot, 1
+| Ender Nugget, 9
+| Enriched Petrolium, 100
++ Carpenter
+-
+
+# Ender Nugget, 36
+| Ender Pearl, 4
+| Black Iron Ingot, 4
+| Yellorium Cluster, 1
+| Enriched Petrolium, 100
++ Carpenter
+-
+
+# Black Iron Ingot, 4
+| Petrolium Infused Ingot, 4
+| Luminessence, 4
+| Iron Ingot, 1
+| Enriched Petrolium, 100
++ Carpenter
+-
+
+# Petrolium Infused Ingot, 4
+| Electrotine Alloy Ingot, 4
+| Gold Ingot, 4
+| Super Diamond, 1
+| Red Alloy Ingot, 1
+| Enriched Petrolium, 1000
++ Carpenter
+-
+
+# Electrotine Alloy Ingot, 1
+| Electrotine Iron Compound, 1
+| Molten Glass, 500
++ Thermionic Fabricator, Super Diamond Catalyst
+-
+
+# Electrotine Iron Compound, 1
+| Electrotine, 8
+| Iron Ingot, 1
+| Molten Glass, 500
++ Thermionic Fabricator, Super Diamond Catalyst 
+-
+
+# Red Alloy Ingot, 1
+| Red Iron Compound, 1
+| Molten Glass, 500
++ Thermionic Fabricator, Super Diamond Catalyst
+-
+
+# Red Iron Compound, 1
+| Redstone, 8
+| Iron Ingot, 1
+| Molten Glass, 500
++ Thermionic Fabricator, Super Diamond Catalyst 
+-
+
+# Luminessence, 1
+| Glowstone Dust, 4
+| Redstone, 4
+| Gunpowder, 1
+| Lubricant, 100
++ Carpenter
+-
+
+# Enhanced Galgadorian Metal,3
+| Large Lump of Galgador, 9
+| Liquid Enderium, 500
++ Carpenter
+-
+
+# Large Lump of Galgador,3
+| Galgadorian Metal, 9
+| Liquid Signalum, 500
++ Carpenter
+-
+
+# Galgadorian Metal, 3
+| Lump of Galgador, 9
+| Liquid Lumium, 500
++ Carpenter
+-
+
+# Lump of Galgador, 2
+| Glowstone Dust, 3
+| Block of Diamond, 1
+| Eye of Galgador, 3
+| Reinforced Metal, 2
+| Resonant Ender, 500
++ Carpenter
+-
+
+# Eye of Galgador, 4
+| Blaze Rod, 4
+| Enhanced Ender Ingot, 4
+| Eye of Ender, 1
++ Ender Crafting
+_
+
+# Enhanced Ender Ingot, 4
+| Ender Ingot, 4
+| Ender Star, 1
++ Ender Crafting
+-
+
+# Ender Star, 1
+| Eye of Ender, 4
+| Nether Star, 1
++ Ender Crafting
+-
+
+# Eye of Ender, 1
+| Blaze Powder, 1
+| Ender Pearl, 1
+| Lava, 200
++ Carpenter
+-
+
+# Blaze Powder, 4
+| Blaze Rod, 1
++ Grinder
+-
+
+# Reinforced Metal, 3
+| Stabalized Metal, 9
+| Destabalized Redstone, 500
++ Carpenter
+_
+
+# Stabalized Metal, 5
+| Iron Ingot, 5
+| Hardened Mesh, 1
+| Refined Hardener, 3
+| Energized Glowstone, 500
++ Carpenter
+-
+
+# Hardened Mesh, 1
+| Iron Ingot, 5
+| Refined Hardener, 4
++ Ender Crafting
+-
+
+# Refined Hardener, 4
+| Super Diamond, 5
+| Raw Hardener, 4
+| Molten Diamond, 500
++ Carpenter
+-
+
+# Raw Hardener, 4
+| Block of Black Iron, 4
+| Petrolium Infused Ingot, 4
+| Block of Diamond, 1
+| Liquid Iron, 500
++ Carpenter
+-
+
+# Block of Black Iron, 1
+| Diamond, 4
+| Black Iron Ingot, 5
+| Enriched Petrolium, 100
++ Carpenter
+-
+
+# Electrotine, 8
+> Diamond, 15
+| Kimberlite, 1
++ Crusher
+-
+
+# Diamond, 15
+> Electrotine, 8
+| Kimberlite, 1
++ Crusher
+-
+
+# Kimberlite, 24
+| Compressed Diamond Ore, 1
++ Crusher
+-
+
+# Compressed Diamond Ore, 5
+| Deep Diamond Ore, 1
++ Crusher
+-
+
+# Block of Diamond, 1
+| Diamond, 9
++ Standard Crafting
+-
+
+# Block of Redstone, 1
+| Redstone, 9
+| Molten Glass, 500
++ Thermionic Fabricator
+-
+
+# Redstone, 30
+> Glowstone, 10
+| Cinnabar, 1
++ Crusher
+-
+
+# Glowstone, 10
+> Redstone, 30
+| Cinnabar, 1
++ Crusher
+-
+
+# Cinnabar, 24
+| Compressed Redstone Ore, 1
++ Crusher
+-
+
+# Iron Ingot, 1
+| Molten Iron, 144
++ Cast From Smeltery
+-
+
+# Molten Iron, 288
+| Iron Cluster, 1
++ Melt in Smeltery
+-
+
+# Iron Cluster, 8
+> Nickel Cluster, 8
+| Limonite, 1
++ Crusher
+-
+
+# Nickel Cluster, 8
+> Iron Cluster, 8
+| Limonite, 1
++ Crusher
+-
+
+# Limonite, 24
+| Compressed Iron Ore, 1
++ Crusher
+-
+
+# Energized Glowstone, 250
+| Glowstone Dust, 1
++ Melter
+-
+
+# Destabalized Redstone, 100
+| Redstone, 1
++ Melter
+-
+
+# Enriched Petrolium, 1000
+| Diamond, 1
+| Crude Oil, 1000
++ Mixer
+-
+
+# Gold Ingot, 1
+| Molten Gold, 144
++ Casting
+- 
+
+# Molten Gold, 288
+| Gold Cluster, 1
++ Smeltery
+-
+
+# Gold Cluster, 8
+| Geolysis Gold Ore, 1
++ Crusher
+-
+
+# Geolysis Gold Ore, 24
+| Compressed Gold Ore, 1
++ Crusher
+-
+
+# Molten Glass, 375
+| Glass Pane, 1
++ Thermionic Fabricator
+-
+
+# Glass Pane, 1
+| Liquid Glass, 375
++ Casting
+-
+
+# Liquid Glass, 1000
+| Sand, 1
++ Smeltery
+-
+
+# Liquid Iron, 216
+| Iron Cluster, 1
++ Melting Crucible
+-
+
+# Liquid Lumium, 54
+| Energized Glowstone, 125
+| Molten Tin, 54
+| Molten Silver, 18
++ Alloy Mixer
+-
+
+# Liquid Signalum, 54
+| Destabalized Redstone, 125
+| Molten Copper, 54
+| Molten Silver, 18
++ Alloy Mixer
+-
+
+# Molten Diamond, 666
+| Diamond, 1
++ Smeltery
+-
+
+# Resonant Ender, 250
+| Ender Pearl, 1
++ Melting Crucible
+-
+
+# Steel Ingot, 4
+| Iron Ingot, 4
+| Coal, 1
++ Techgun's Blast Furnace
+-
+
