@@ -1,3 +1,19 @@
+//Recipe Library Input in the following format
+
+//# Item Name, yield
+//| component 1, numberRequired
+//| component 2, numberRequired
+//| ...
+//| component n, numberRequired
+//> Bi-product 1, numberProduced
+//> Bi-product 2, numberProduced
+//> ...
+//> Bi-product n, numberProduced
+//+ Comment to be displayed in output for recipe. Only the last comment on a recipe will be displayed
+//- End of Recipe
+
+//Below is the Recipe for a Bookshelf from Minecraft and 3 sub-recipes
+
 # BookShelf, 1
 | Book, 3
 | Wooden Plank, 6
