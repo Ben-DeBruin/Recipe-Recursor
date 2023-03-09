@@ -37,7 +37,7 @@ public class recipePlanner {
     int maxDepth = 0;
 
     void readRecipesFromFile() {
-        File file = new File("RecipePlanner\\src\\recipeLibrary.txt");
+        File file = new File("recipeLibrary.txt");
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             String line;
             String Comment = null;
